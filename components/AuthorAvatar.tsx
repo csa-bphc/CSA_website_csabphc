@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Post } from '../lib/types';
 
-export default function AuthorAvatar({ post }: { post: Post }): JSX.Element {
+export default function AuthorAvatar({ post }: { post: Post }) {
   const author = post.metadata.author;
   // Safely access the image URL with optional chaining
   const imgUrl = author?.metadata?.image?.imgix_url;

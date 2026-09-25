@@ -6,7 +6,7 @@ export default function SiteLogo({
   siteData,
 }: {
   siteData: GlobalData;
-}): JSX.Element {
+}) {
   return (
     <div className="mx-auto flex w-full flex-col items-center justify-start gap-x-3 px-4 py-4 md:flex-row lg:px-0">
       <h1 className="flex space-x-2">

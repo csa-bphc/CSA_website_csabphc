@@ -2,7 +2,7 @@ export default function OBMLogo({
   className,
 }: {
   className?: string;
-}): JSX.Element {
+}) {
   return (
     <svg
       version="1.0"

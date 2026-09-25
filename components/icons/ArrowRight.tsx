@@ -2,7 +2,7 @@ export default function ArrowRight({
   className,
 }: {
   className?: string;
-}): JSX.Element {
+}) {
   return (
     <svg
       width={20}

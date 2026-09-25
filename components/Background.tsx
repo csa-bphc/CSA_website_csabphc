@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect } from 'react';
 
-export default function Background(): JSX.Element {
+export default function Background() {
   useEffect(() => {
     const container = document.getElementById("background-animation");
     if (!container) return;

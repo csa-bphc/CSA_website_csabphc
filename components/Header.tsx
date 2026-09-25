@@ -16,7 +16,7 @@ const MobileMenuPortal = ({ children }: { children: React.ReactNode }) => {
   return ReactDOM.createPortal(children, document.body);
 };
 
-export default function Header({ name }: { name: GlobalData }): JSX.Element {
+export default function Header({ name }: { name: GlobalData }) {
   const { data: session } = useSession();
 
   // isMenuVisible controls whether the mobile overlay is rendered.

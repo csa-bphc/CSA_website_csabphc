@@ -1,4 +1,4 @@
-export default function CosmicLogo(): JSX.Element {
+export default function CosmicLogo() {
   return (
     <svg
  version='1.0'

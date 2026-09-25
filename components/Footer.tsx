@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from 'react';
 
-export default function Footer(): JSX.Element {
+export default function Footer() {
   return (
     <footer className="w-full mt-auto border-t border-gray-200 dark:border-zinc-800 bg-white dark:bg-black relative z-50">
       <div className="mx-auto max-w-6xl px-6 py-5 md:py-6 text-gray-500 dark:text-zinc-400">
